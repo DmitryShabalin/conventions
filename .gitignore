@@ -1,0 +1,52 @@
+# Maven / Gradle
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# Java / Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.jpi
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+coverage/
+.nyc_output/
+jacoco.exec
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+
+# START Ruler Generated Files
+/.codex/config.toml
+/.codex/config.toml.bak
+/AGENTS.md
+/AGENTS.md.bak
+/CLAUDE.md
+/CLAUDE.md.bak
+# END Ruler Generated Files
