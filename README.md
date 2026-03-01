@@ -47,3 +47,11 @@ ruler revert
 Files are concatenated in alphabetical order of their filenames.
 To control the sequence intentionally, use zero-padded numeric prefixes (00_, 01_, 02_ …)
 Rules that appear earlier in the concatenated text usually take precedence over rules that come later.
+
+
+## SKILLS
+### browser
+```bash
+npm install -g @playwright/cli@latest
+playwright-cli install --skills
+```

@@ -43,8 +43,10 @@ temp/
 
 
 # START Ruler Generated Files
+/.claude/skills
 /.codex/config.toml
 /.codex/config.toml.bak
+/.codex/skills
 /AGENTS.md
 /AGENTS.md.bak
 /CLAUDE.md
