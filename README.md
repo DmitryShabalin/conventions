@@ -15,8 +15,11 @@ npm install -g @intellectronica/ruler
 2. Run `./apply-to-global.sh` — regenerates and copies to all global agent configs:
    - `~/.claude/CLAUDE.md` — Claude Code
    - `~/.codex/AGENTS.md` — Codex CLI
+   !!! Its not good due to copy some into user settings ( apply-to-global.sh do that) but This is my flow. I dont want to run `ruler apply` in each project
 3. Commit `.ruler/`
 
+
+## Ruler commands
 Preview changes without writing:
 
 ```bash
