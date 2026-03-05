@@ -1,5 +1,7 @@
 # agents-conventions
 
+TODO: ruler заставляет делать ruler apply в каждом проекте - чекнуть альтернативы 
+
 Single source of truth for AI coding agent instructions (Java/Kotlin, Playwright, etc.).
 Uses [Ruler](https://github.com/intellectronica/ruler) to distribute rules to all configured agents automatically.
 
@@ -53,8 +55,21 @@ Rules that appear earlier in the concatenated text usually take precedence over 
 
 
 ## SKILLS
-### browser
+### Playwright-CLI browser
 ```bash
 npm install -g @playwright/cli@latest
 playwright-cli install --skills
+```
+
+## MCP
+### Playwright MCP Bridge
+browser extension
+https://chromewebstore.google.com/detail/playwright-mcp-bridge/mmlmfjhmonkocbjadbfplnigmagldckm
+
+Для чего - Чтобы ИИ управлял вкладкой из твоего браузера, ту можно промт "покажи, что на экране у меня сейчас", работа с авторизованными сайтами (Gmail, Jira, banking и т.д.)" 
+Playwright-CLI открывает свой браузер
+
+[//]: # (для claude нужно вручную установить, через ruler не удалось быстро)
+```bash
+claude mcp add playwright -- npx @playwright/mcp@latest --extension
 ```

@@ -18,6 +18,7 @@ echo "  Claude Code -> ~/.claude/CLAUDE.md"
 # Codex CLI — ~/.codex/AGENTS.md
 mkdir -p ~/.codex
 cp "$SCRIPT_DIR/AGENTS.md" ~/.codex/AGENTS.md
+cp "$SCRIPT_DIR/.codex/config.toml" ~/.codex/config.toml
 cp -r "$SCRIPT_DIR/.codex/skills" ~/.codex/skills
 echo "  Codex CLI   -> ~/.codex/AGENTS.md"
 
